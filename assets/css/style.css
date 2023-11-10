@@ -19,9 +19,9 @@ footer {
 
 #hero {
   background-color: lightblue;
-  background-size: cover;
   background-position: 0 20%;
-  height: 12vw;
+  height: fit-content;
+  padding: 20px;
 }
 
 #skills a img:hover {
