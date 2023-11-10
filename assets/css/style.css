@@ -2,13 +2,6 @@
   transition: 0.2s all;
 }
 
-#hero {
-  background-color: lightblue;
-  background-size: cover;
-  background-position: 0 20%;
-  height: 12vw;
-}
-
 footer {
   background-color: lightblue;
   bottom: 0;
@@ -17,13 +10,20 @@ footer {
   position: fixed;
 }
 
-#skills a {
-  padding: 15px 5px;
-}
-
 .title-body {
   border-radius: 20px;
   margin: auto;
   padding: 20px;
   width: fit-content;
+}
+
+#hero {
+  background-color: lightblue;
+  background-size: cover;
+  background-position: 0 20%;
+  height: 12vw;
+}
+
+#skills a img:hover {
+  transform: scale(1.5);
 }
